@@ -52,7 +52,7 @@ export default function News({ category }) {
 
   return (
     <div className="container my-3">
-      <h2 className="text-center">News Paper - {category.charAt(0).toUpperCase() + category.slice(1)} Headlines</h2>
+      <h2 className="text-center"style={{margin:'35px 0px', marginTop:'80px'}} >News Paper - {category.charAt(0).toUpperCase() + category.slice(1)} Headlines</h2>
 
       {loading ? (
         <Spinner />
