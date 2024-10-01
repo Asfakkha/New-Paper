@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className="container my-4">
+    <div className="container my-5">
       <h1>About Us</h1>
       <p>
         Welcome to our News App! We are dedicated to providing you with the latest headlines and updates across various categories such as science, business, sports, entertainment, and more.
